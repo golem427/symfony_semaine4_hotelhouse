@@ -4,7 +4,7 @@
 
 h2{
   font-family: 'Tangerine', cursive;
-  font-size: 4rem !important;
+  font-size: 8rem !important;
   color: #d8ad00 !important;
 }
 
@@ -37,8 +37,8 @@ h2{
 
 .classynav a{
   font-family: 'Tangerine', cursive;
-  font-size: 2rem !important;
-  color: #d8ad00 !important;
+  font-size: 10rem !important;
+  color: #FFFF !important;
   padding-right: 1vw !important;
   padding-left: 1vw !important;
 }
@@ -49,7 +49,7 @@ h2{
 
 .nav-link:hover{
   font-weight: bold;
-  background-color:#d8ad00 !important;
+  background-color:#FFFF !important;
   color: black !important;
 }
 
@@ -66,7 +66,7 @@ h2{
 }
 
 .dropdown-item:hover{
-  background-color:rgb(60, 112, 255);
+  background-color:rgb(247, 140, 199);
   color: white !important;
 }
 
@@ -95,7 +95,7 @@ height: 300px;
 }
 
 .sea{
-  background-color: #0a93b1 !important;
+  background-color: #ee92c0 !important;
 }
 
 a.soins{
