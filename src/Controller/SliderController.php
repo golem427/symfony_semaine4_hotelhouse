@@ -277,7 +277,7 @@ class SliderController extends AbstractController
 //         $entityManager->remove($slide);
 //         $entityManager->flush();
 
-//         $this->addFlash('success', "l'slide a bien été supprimé de la base de données");
+//         $this->addFlash('success', "le slide a bien été supprimé de la base de données");
 //         return $this->redirectToRoute('show_trash');
 //     }
 // } # end class

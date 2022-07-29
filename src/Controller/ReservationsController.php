@@ -31,8 +31,6 @@ class ReservationsController extends AbstractController
             'chambre' => $chambre
         ]);
     }
-
-    
 }
 //     /**
 //      * @Route("/modifier-chambre_{id}", name="update_chambre", methods={"GET|POST"})
