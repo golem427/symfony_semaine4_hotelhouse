@@ -53,8 +53,7 @@ class ChambreController extends AbstractController
             $chambre->setCreatedAt(new DateTime());
             $chambre->setUpdatedAt(new DateTime());
 
-            // # L'alias sera utilisé dans l'url (comme FranceTvInfo) et donc doit être assaini de tout accents et espaces.
-            // $chambre->setAlias($slugger->slug($chambre->getTitle()));
+    
 
             /** @var UploadedFile $photo */
             $photo = $form->get('photo')->getData();

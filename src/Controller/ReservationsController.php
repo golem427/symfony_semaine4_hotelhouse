@@ -17,13 +17,13 @@ class ReservationsController extends AbstractController
     {
         $chambres = $entityManager->getRepository(Chambre::class)->findBy(['deletedAt' => null]);
         
-        return $this->render('reservation\show_reservation.html.twig', [
+        return $this->render('reservation/show_reservation.html.twig', [
             'chambres' => $chambres
         ]);
     } # end function showChambre()
 
     /**
-     * @Route("voir-chambre-reservation_{id}", name="show_reservation_chambre", methods={"GET|POST"})
+     * @Route("voir-chambre-reservation{id}", name="show_reservation_chambre", methods={"GET|POST"})
      */
     public function showReservationChambre(Chambre $chambre): Response
     {
