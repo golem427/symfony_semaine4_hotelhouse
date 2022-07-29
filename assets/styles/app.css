@@ -47,28 +47,8 @@ h2{
   font-size: 1rem !important;
 }
 
-.nav-link:hover{
-  font-weight: bold;
-  background-color:#FFFF !important;
-  color: black !important;
-}
 
-.nav-item:visited{
-  font-weight: bold !important; 
-  background-color:#d8ad00 !important;
-  color: black !important;
-}
 
-.dropdown-menu.goldy .dropdown-item:hover{
-  background-color:#d8ad00 !important;
-  color: white !important;
-  font-weight: bold;
-}
-
-.dropdown-item:hover{
-  background-color:rgb(247, 140, 199);
-  color: white !important;
-}
 
 /* ***************** End NAVBAR ****************** */
 
