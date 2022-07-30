@@ -43,9 +43,9 @@
 			{% endif %}  #}
 
 			{% if not app.user %}
-				<a class="nav-link text-decoration: none" href="{{ path('register_membre') }}">Inscription</a>
+				<a class="nav-link login text-decoration: none" href="{{ path('register_membre') }}">Inscription</a>
 
-				<a class="nav-link" href="{{ path('app_login') }}">Connexion</a>
+				<a class="nav-link login" href="{{ path('app_login') }}">Connexion</a>
 			{% endif %}
 
 			{% if app.user %}
