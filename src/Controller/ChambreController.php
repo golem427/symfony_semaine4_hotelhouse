@@ -23,7 +23,7 @@ class ChambreController extends AbstractController
     {
         $chambres = $entityManager->getRepository(Chambre::class)->findBy(['deletedAt' => null]);
         
-        return $this->render('admin/show_chambres.html.twig', [
+        return $this->render('chambre\chambre.html.twig', [
             'chambres' => $chambres
         ]);
     } # end function showChambre()
