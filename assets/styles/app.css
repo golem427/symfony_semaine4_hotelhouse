@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 /* font-family: 'Tangerine', cursive; */
 
+.btn-info{
+  background-color: #ee92c0 !important;
+}
+
+.btn-primary{
+  background-color: #ee92c0 !important;
+}
 
 h2{
   font-family: 'Tangerine', cursive;
-  font-size: 1rem !important;
+  font-size: 0.8rem !important;
   color: #ffffff !important;
 }
 
@@ -33,13 +40,16 @@ h2{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
 }
 
+.img{
+border-radius: 75px;
+}
 /* ***************** NAVBAR ****************** */
 
 .classynav a{
   font-family: 'noto bold', sans-serif;
   font-size: 1rem !important;
   color: #FFFFFF !important;
-  font-size: 2rem !important;
+  font-size: 1rem !important;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px !important;
   padding-right: 1vw !important;
   padding-left: 1vw !important;
@@ -108,7 +118,7 @@ border-radius: 75px;
 .cts{
   font-family: 'Tangerine', cursive !important;
   font-size: 3.5rem !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .dbox a{
@@ -119,7 +129,7 @@ border-radius: 75px;
 
 .dbox a:hover{
   color: black !important;
-  font-weight: bold;
+  font-weight: bold! important;
 }
 
 .form-control-lg {
@@ -140,7 +150,7 @@ border-radius: 75px;
 .btn.bg-gold:hover{
   background-color:#870f6f !important;
   color:#12010e !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 /* ***************** End CONTACT ****************** */
@@ -163,13 +173,13 @@ footer{
 .fa-brands{
   font-size: 1.8rem;
   padding-right: 10px;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .fa-brands:hover{
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-right: 10px;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .cgv{
@@ -182,4 +192,8 @@ footer{
   align-items: center;
   color: white;
   padding: 10px;
+}
+
+.gold{
+  color:crimson !important;
 }
