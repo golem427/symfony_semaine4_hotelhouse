@@ -177,8 +177,8 @@ footer{
 }
 
 .fa-brands:hover{
-  font-size: 2rem;
-  padding-right: 10px;
+  font-size: 2rem !important;
+  padding-right: 10px !important;
   color: rgb(0, 0, 0) !important;
 }
 
