@@ -36,11 +36,10 @@ h2{
 /* ***************** NAVBAR ****************** */
 
 .classynav a{
-  font-family: 'roboto', sans-serif;
+  font-family: 'noto bold', sans-serif;
+  font-size: 1.5rem !important;
+  color: #FFFFFF !important;
   font-size: 2rem !important;
-  color: #FFFFFF;
-  font-size: 2rem !important;
-  background: #333333 !important;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px !important;
   padding-right: 1vw !important;
   padding-left: 1vw !important;
