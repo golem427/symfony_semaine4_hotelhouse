@@ -133,12 +133,12 @@ border-radius: 75px;
 }
 
 .btn.bg-gold{
-  background-color:#870f6f !important;
-  color:#ffffff !important;
+  background-color:#ee92c0 !important;
+  color: #ffff !important;
 }
 
 .btn.bg-gold:hover{
-  background-color:rosybrown !important;
+  background-color:#870f6f !important;
   color:#12010e !important;
   font-weight: bold;
 }
