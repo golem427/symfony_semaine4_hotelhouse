@@ -136,7 +136,7 @@ border-radius: 75px;
 
 .btn.bg-gold:hover{
   background-color: black !important;
-  color:#d8ad00 !important;
+  color:#be159c !important;
   font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ footer{
 .fa-brands{
   font-size: 2rem;
   padding-right: 10px;
-  color: #d8ad00 !important;
+  color: #000000 !important;
 }
 
 .fa-brands:hover{
