@@ -67,7 +67,8 @@ height: 300px;
 }
 
 .btn-info{
-    color: #ffffff !important;
+    background-color:#870f6f !important;
+    color: white !important;
     font-weight: bold;
     margin-bottom: 50px;
 }
