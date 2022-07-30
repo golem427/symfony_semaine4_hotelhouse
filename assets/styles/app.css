@@ -37,8 +37,8 @@ h2{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
 }
 
-.img{
-border-radius: 75px;
+img{
+border-radius: 65px;
 }
 /* ***************** NAVBAR ****************** */
 
