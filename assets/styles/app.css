@@ -4,7 +4,7 @@
 
 h2{
   font-family: 'Tangerine', cursive;
-  font-size: 2rem !important;
+  font-size: rem !important;
   color: #ffffff !important;
 }
 
@@ -36,9 +36,10 @@ h2{
 /* ***************** NAVBAR ****************** */
 
 .classynav a{
-  font-family: 'Tangerine', cursive;
+  font-family: 'roboto', sans-serif;
   font-size: 3rem !important;
   color: #FFFF !important;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 3px 1px 2px rgba(255,191,246,0);
   padding-right: 1vw !important;
   padding-left: 1vw !important;
 }
