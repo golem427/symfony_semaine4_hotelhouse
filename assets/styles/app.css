@@ -2,7 +2,7 @@
 /* font-family: 'Tangerine', cursive; */
 
 .btn-info{
-  background-color: #ee92c0 !important;
+  background-color: #870f6f !important;
 }
 
 .btn-primary{
@@ -47,7 +47,7 @@ border-radius: 75px;
 
 .classynav a{
   font-family: 'noto bold', sans-serif;
-  font-size: 1rem !important;
+  font-size: 1,5rem !important;
   color: #FFFFFF !important;
   font-size: 1rem !important;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px !important;
@@ -70,7 +70,7 @@ height: 300px;
 }
 
 .btn-info{
-    color: white;
+    color: #870f6f !important;
     font-weight: bold;
     margin-bottom: 50px;
 }
