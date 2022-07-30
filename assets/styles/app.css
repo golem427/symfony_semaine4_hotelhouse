@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 /* font-family: 'Tangerine', cursive; */
 
+img{
+  border-radius: 55px;
+  }
 
 .btn-primary{
   background-color: #ee92c0 !important;
@@ -18,7 +21,7 @@ h2{
 
 /* ***************** SLIDER ****************** */
 
-.container{
+.carousel-inner{
   margin-bottom: 2rem;
 }
 
@@ -42,15 +45,14 @@ h2{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
 }
 
-img{
-border-radius: 65px;
-}
+
 /* ***************** NAVBAR ****************** */
 
 .classynav a{
   font-family: 'noto bold', sans-serif;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   color: #FFFFFF !important;
+  font-size: 1.5rem !important;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px !important;
   padding-right: 1vw !important;
   padding-left: 1vw !important;
