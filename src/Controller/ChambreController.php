@@ -19,14 +19,14 @@ class ChambreController extends AbstractController
     /**
     * @Route("/voir-chambres", name="show_chambres", methods={"GET"})
     */
-    public function showChambre(EntityManagerInterface $entityManager): Response
+    public function showChambres(EntityManagerInterface $entityManager): Response
     {
         $chambres = $entityManager->getRepository(Chambre::class)->findBy(['deletedAt' => null]);
         
         return $this->render('admin/show_chambres.html.twig', [
             'chambres' => $chambres
         ]);
-    } # end function showChambre()
+    } # end function showChambres()
 
     /**
      * @Route("voir_chambre_{id}", name="show_chambre_{id}", methods={"GET"})
