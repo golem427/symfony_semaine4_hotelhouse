@@ -2,8 +2,13 @@
 /* font-family: 'Tangerine', cursive; */
 
 img{
-  border-radius: 55px;
+  border-radius: 35px;
   }
+
+  .navbar{
+    margin-bottom: 2rem;
+  }
+
 
 .btn-primary{
   background-color: #ee92c0 !important;
